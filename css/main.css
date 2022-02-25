@@ -1,0 +1,165 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  min-height: 100vh;
+  background-color: #ecf2f8;
+  gap: 2rem; }
+
+html {
+  font-family: "Manrope";
+  font-size: 13px;
+  font-weight: 500;
+  color: #6d7f97; }
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.flex-col {
+  flex-direction: column; }
+
+.flex-row {
+  flex-direction: row; }
+
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+  .attribution a {
+    color: #3e52a3; }
+
+.container {
+  max-width: 375px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.1);
+  gap: 2rem;
+  background-color: #fff; }
+
+.section-image img {
+  width: 100%; }
+
+.section-content {
+  padding-inline: 2.9rem;
+  gap: 1rem; }
+  .section-content--heading {
+    color: #48556a;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 0.5px; }
+  .section-content--para {
+    line-height: 1.6;
+    letter-spacing: 1px;
+    width: 100%; }
+  .section-content--profile {
+    margin: 2rem 0;
+    gap: 2rem;
+    justify-content: space-between; }
+    .section-content--profile-img {
+      width: 15%;
+      border-radius: 50%; }
+    .section-content--profile-details {
+      width: 100%;
+      gap: 0.2rem; }
+      .section-content--profile-details p {
+        align-self: start; }
+        .section-content--profile-details p:first-child {
+          color: #48556a;
+          font-weight: 700; }
+    .section-content--profile-share {
+      cursor: pointer;
+      background-color: #ecf2f8;
+      border-radius: 50%;
+      padding: 12px 10px; }
+
+.section-links {
+  width: 100%;
+  padding: 1.5rem 2.9rem;
+  background-color: #48556a;
+  gap: 1.5rem;
+  justify-content: space-between;
+  display: none;
+  margin-top: 0.65rem; }
+  .section-links--btnbox {
+    gap: 1.5rem; }
+  .section-links--text {
+    letter-spacing: 8px;
+    color: #9eafc2; }
+  .section-links--btns {
+    gap: 1rem; }
+    .section-links--btns img {
+      cursor: pointer; }
+  .section-links--share {
+    border-radius: 50%;
+    background-color: #6d7f97;
+    padding: 0.7rem; }
+    .section-links--share svg {
+      cursor: pointer; }
+      .section-links--share svg path {
+        fill: #ecf2f8; }
+
+.triangle {
+  display: none; }
+
+.show {
+  display: flex; }
+
+@media (min-width: 1000px) {
+  main {
+    position: relative; }
+  .container {
+    max-width: 1000px;
+    flex-direction: row;
+    gap: 0; }
+  .section-image {
+    width: 100%;
+    height: 100%; }
+    .section-image img {
+      display: block; }
+  .section-content {
+    padding: 2rem 3rem; }
+    .section-content--heading {
+      font-size: 1.8rem;
+      padding-right: 4rem; }
+    .section-content--para {
+      padding-right: 4rem; }
+    .section-content--profile {
+      width: 100%;
+      margin-bottom: 0;
+      padding-right: 1.2rem; }
+      .section-content--profile-img {
+        width: 10%; }
+  .section-links {
+    position: absolute;
+    right: -50px;
+    top: 157px;
+    z-index: 1000;
+    width: min-content;
+    border-radius: 10px;
+    padding: 1rem 3rem; }
+    .section-links--share {
+      display: none; }
+  .triangle {
+    position: absolute;
+    top: 215px;
+    right: 58px;
+    display: none;
+    width: 0;
+    border-top: 15px solid #48556a;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent; }
+  .show-triangle {
+    display: block; }
+  .share-dark {
+    border-radius: 50%;
+    background-color: #6d7f97;
+    padding: 0.7rem; }
+    .share-dark svg {
+      cursor: pointer; }
+      .share-dark svg path {
+        fill: #ecf2f8; } }
