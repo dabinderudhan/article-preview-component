@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/dabinderudhan/article-preview-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live URL](https://dabinderudhan.github.io/article-preview-component/)
 
 ## My process
 
