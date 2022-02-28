@@ -94,13 +94,13 @@ html {
     gap: 1rem; }
     .section-links--btns img {
       cursor: pointer; }
-  .section-links--share {
+  .section-links--shareBtn {
     border-radius: 50%;
     background-color: #6d7f97;
     padding: 0.7rem; }
-    .section-links--share svg {
+    .section-links--shareBtn svg {
       cursor: pointer; }
-      .section-links--share svg path {
+      .section-links--shareBtn svg path {
         fill: #ecf2f8; }
 
 .triangle {

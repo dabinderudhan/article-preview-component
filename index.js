@@ -1,7 +1,7 @@
 const shareBtn = document.querySelector(".section-content--profile-share");
 const profile = document.querySelector(".section-content--profile");
 const links = document.querySelector(".section-links");
-const sharelinkBtn = document.querySelector(".section-links--share svg");
+const sharelinkBtn = document.querySelector(".section-links--shareBtn svg");
 const triangle = document.querySelector(".triangle");
 
 const x = window.matchMedia("(min-width: 1000px)");
